@@ -18,3 +18,4 @@ def build_query_string(base_url, **kwargs):
     return base_url + '?' + joined_args
 
 print(build_query_string('https://api.weather.com/v1/forecast',city='Moscow',days=3,units= 'metric'))
+print("helloworld")
